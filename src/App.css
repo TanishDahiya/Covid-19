@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+.app_stats {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  background-color: #f5f6fa;
+}
+.app_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 20px;
+}
+.app__left {
+  flex: 0.9; /* this is going to take up 90% of the screen */
+}
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
